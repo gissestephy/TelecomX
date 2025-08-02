@@ -1,10 +1,19 @@
 # Análisis de datos Telecom X
 
-✦ Problemática
+Tabla de contenido
+
+1. **[Problemática](#Problemática)**
+1. **[Tratamiento de Datos](#Tratamiento_de_Datos)**
+1. **[Análisis Exploratorio de Datos](#Análisis_Exploratorio_de_Datos)**
+1. **[Conclusión](#Conclusión)**
+1. **[Recomendación](#Recomendación)**
+1. **[Instrucciones para Ejecutar el Notebook](#Instrucciones_para_Ejecutar_el_Notebook)**
+
+## **Problemática**
 
 La **evasión de clientes**, conocida también como *Churn* simboliza un gran desafío para las empresas de servicios, especialmente en sectores competitivos como las telecomunicaciones. La pérdida de clientes no solo impica la disminución de ingresos, sino también costos asociados a la adquisición de nuevos suscriptores. El presente análisis posee como objetivo identificar y comprender los factores claves que influyen en la decisión de los clientes de cancelar su servicio, utilizando técnicas de análisis exploratorios de datos (EDA), buscaremos descubrir patrones y relaciones en los datos que puedan arrojar luz sobre las razones detrás de la evasión y, en última instancia, ayudar a desarrollar estrategias para retener a los clientes. 
 
-✦ Tratamiento de Datos
+## **Tratamiento de Datos**
 
 El proceso de análisis empiezá extrayendo los datos desde un archivo JSON remoto para posteriormente preparar el dataset para el análisis. Los pasos clave incluyeron:
 
@@ -24,7 +33,7 @@ El proceso de análisis empiezá extrayendo los datos desde un archivo JSON remo
 
 - **Manejo de Valores Faltantes en 'Evasión':** Para los análisis que involucran la variable 'Evasión', se creó una copia del DataFrame (`df_clean`) donde se eliminaron las filas con valores nulos en esta columna, asegurando la integridad del análisis de evasión.
 
-# ✦ Análisis Exploratorio de Datos (EDA)
+## **Análisis Exploratorio de Datos**
 
 El análisis exploratorio de datos se centró en visualizar la distribución de la variable objetivo (Evasión) y explorar las relaciones entre la evasión y otras características de los clientes y sus servicios.
 
@@ -42,7 +51,7 @@ El análisis exploratorio de datos se centró en visualizar la distribución de 
 
 Estos análisis visuales y cuantitativos son fundamentales para identificar patrones y características de los clientes que tienden a evadir el servicio.
 
-# ✦ Conclusión
+## **Conclusión**
 
 A partir del análisis exploratorio de datos, se pueden extraer varias conclusiones clave:
 
@@ -54,7 +63,7 @@ A partir del análisis exploratorio de datos, se pueden extraer varias conclusio
 
 Los insights obtenidos de este análisis visual y cuantitativo son cruciales para comprender el perfil del cliente que evade y los factores que contribuyen a esta decisión. Esta información puede ser utilizada para segmentar a los clientes en riesgo y diseñar intervenciones dirigidas.
 
-# ✦ Recomendaciones
+# **Recomendación**
 
 Basado en los hallazgos de este análisis, se sugieren las siguientes recomendaciones estratégicas para reducir la evasión de clientes:
 
@@ -69,7 +78,6 @@ Basado en los hallazgos de este análisis, se sugieren las siguientes recomendac
 - **Monitoreo Continuo:** Establecer un sistema para monitorear continuamente las métricas de evasión y los factores que la influyen. El análisis de datos debe ser un proceso iterativo que permita ajustar las estrategias de retención a medida que cambian las dinámicas del mercado y el comportamiento del cliente.
 
 La implementación de estas recomendaciones, respaldada por un análisis de datos sólido, puede ayudar a Telecom X a reducir su tasa de evasión y mejorar la rentabilidad a largo plazo.
-
 
 # **Instrucciones para Ejecutar el Notebook**
 
